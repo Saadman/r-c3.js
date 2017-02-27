@@ -5,11 +5,13 @@
 #' @import htmlwidgets
 #'
 #' @export
-c3 <- function( width = NULL, height = NULL, elementId = NULL) {
-
+c3 <- function( data,width = NULL, height = NULL, elementId = NULL) {
+  
+ 
   # forward options using x
   x = list(
-  
+   data=data
+   
   )
 
   # create widget
