@@ -7,7 +7,7 @@
 #' @export
 c3 <- function( data,width = NULL, height = NULL, elementId = NULL) {
   
- 
+  names(data)<-c("data1","data2")
   # forward options using x
   x = list(
    data=data
